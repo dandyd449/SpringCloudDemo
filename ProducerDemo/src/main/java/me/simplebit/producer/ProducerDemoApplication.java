@@ -7,7 +7,6 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableHystrix
 public class ProducerDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProducerDemoApplication.class, args);
